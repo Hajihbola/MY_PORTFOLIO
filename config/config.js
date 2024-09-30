@@ -1,6 +1,6 @@
 
 import profile from './profile.png';
-import {faGithub} from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
@@ -36,8 +36,8 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:4eeb631c-32e7-45b3-bd23-5b03f81f09e8",
-			isPrimary: false,
+			link: "https://drive.google.com/file/d/1qiZu9hMTHGr9dCBK8HWmWYXiRUH7hVye/view?usp=drive_link",
+			isPrimary: true,
 		},
 	],
 }
@@ -46,6 +46,7 @@ export const about = {
 	title: "Who I am",
 	description: [
 		"I graduated from University of Ilorin in 2019 with a bachelor of science degree in Physiology. I kick started my professional tech career as a frontend software developer working onsite as an intern for a multinational agrocommodity company that has its branches in a couple of countries — AFEX. I have also contributed in open source projects.",
+		"I as well currently work as the Head of Technical Support Officer at Vergold where we are presently working on a Skillup Digital Skills Training project, sponsored by the Federal Ministry of Education Ideas Project(Nigeria) and the World Bank and also a frontend developer",
 		"The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping new developers, and supporting organizations to promote diversity in tech.",
 		"When I’m not programming, I focus on my hobbies which are: surfing the internet, creative skills such as wig making or revamping and event services amongst others, meeting people and growing my network.",
 	],
@@ -56,9 +57,14 @@ export const work = {
 	cards: [
 		{
 			title: "Web Development",
-			description: "I create responsive static websites using Reactjs, Typescript, JavaScript, HTML5, CSS3, TailwindCSS, Next.js mainly.",
+			description: "I create responsive static and dynamic responsive websites using Reactjs, Typescript, JavaScript, HTML5, CSS3, TailwindCSS, Next.js mainly.",
 			icons: null,
-		}
+		},
+		{
+			title: "Training",
+			description: "I confidently tutor interested great minds on HTML5, CSS3, TailwindCSS, basics of JavaScript and Reactjs currently from zero knowledge in tech into an intermediate.",
+			icons: null
+		},
 	],
 }
 
@@ -95,9 +101,9 @@ export const projects = {
 				},
 			]
 		},
-	{	
-		title: "Portfolio",
-			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+		{
+			title: "Portfolio",
+			description: "A portfolio website template that showcases projects worked on, projects and skills as a software developer or freelancer.",
 			icons: [
 				{
 					icon: faGithub,
@@ -115,7 +121,7 @@ export const contact = {
 	buttons: [
 		{
 			title: "Email Me",
-			link: "ajibolablessing3@gmail.com",
+			link: "mailto:your-ajibolablessing3@gmail.com",
 			isPrimary: true,
 		},
 		{
@@ -129,8 +135,8 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
 	// 50 - 60 char  
-	title: "Odebunmi Blessing | Frontend Software Developer| Reactjs developer",
-	description: "I create responsive websites for small, mediun, large scale businesses and individuals. I graduated from University of Ilorin in 2019 with a bachelor of science degree in Physiology.",
+	title: "Odebunmi Blessing | Frontend Software Developer| Reactjs developer| Technical Support Officer",
+	description: "I create responsive websites for small, mediun, large scale businesses and individuals as I offer the neccessary technical support needed to my clientele. I graduated from University of Ilorin in 2019 with a bachelor of science degree in Physiology, and started my tech journey since then progressively.",
 	image: profile.src,
 }
 

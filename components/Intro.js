@@ -24,6 +24,27 @@ export const Intro = ({ title, description, image, buttons }) => {
 									</Link>
 							))}
 						</div>
+
+						<div className="text-center">
+							{buttons.map((value, index) => (
+								value.isPrimary ? (
+									<a key={index} href={value.link}>
+										<p className="btn btn-primary my-1 mx-3">{value.title}</p>
+									</a>
+								) : (
+									<a
+										key={index}
+										href={value.link}
+										target={value.link.startsWith('mailto:') ? '_self' : '_blank'}
+										rel={value.link.startsWith('mailto:') ? '' : 'noreferrer'}
+									>
+										<p className="btn btn-outline-primary my-1 mx-3">{value.title}</p>
+									</a>
+								)
+							))}
+						</div>
+
+
 					</div>
 					<div className="col-sm-6 text-center">
 						<img
