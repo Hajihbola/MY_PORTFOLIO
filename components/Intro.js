@@ -12,7 +12,7 @@ export const Intro = ({ title, description, image, buttons }) => {
 					<div className="col-sm-6">
 						<h1 className="text-primary fw-bold display-3">{title}</h1>
 						<p>{description}</p>
-						<div className="text-center">
+						{/* <div className="text-center">
 							{buttons.map((value, index) => (
 								(value.isPrimary) ?
 									<Link key={index} href={value.link}>
@@ -23,7 +23,7 @@ export const Intro = ({ title, description, image, buttons }) => {
 										<p target="_blank" rel="noreferrer" className="btn btn-outline-primary my-1 mx-3">{value.title}</p>
 									</Link>
 							))}
-						</div>
+						</div> */}
 
 						<div className="text-center">
 							{buttons.map((value, index) => (
